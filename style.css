@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    gap:10rem;
+    
+}
+.play-area{
+    width: 37%;
+    height: 42%;
+    
+    opacity: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.icons{
+    background-color: rgb(230, 220, 220);
+    opacity: 60%;
+    height: 33.33%;
+    width: 33.33%;
+    border: solid 1px gray;
+    padding-left:3.7rem;
+    padding-top: 1.4rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.2s;
+}
+.end-game{
+    background-color:rgb(230, 220, 220) ;
+    opacity: 80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(5, 1, 1);
+    border-radius: 5px;
+    padding-left:0.7rem;
+    width: 8%;
+    height: 3%;
+}
+.end-game:hover{
+    cursor: pointer;
+}
+.inactive{
+    transform: scale(0);
+}
+.disp-1{
+    background-color:rgb(230, 220, 220) ;
+    opacity: 80%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:gray;
+    border-radius: 5px;
+    padding-left:1.2rem;
+    width: 8%;
+    height: 3%;
+}
+.win{
+    background-color: rgb(102, 251, 102);
+}
+.icons:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.no-use{
+    pointer-events: none;
+}
